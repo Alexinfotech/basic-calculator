@@ -1,5 +1,5 @@
 # Basic Calculator
-
+https://alexinfotech.github.io/basic-calculator/
 ## Introduction
 
 This is a very simple calculator project for our class to learn how to use and collaborate with git and GitHub.
