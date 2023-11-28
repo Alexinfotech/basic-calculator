@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcolatrice Futuristica</title>
+    <style>
+        body {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            background: #222;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .calculator-screen {
+            background: #444;
+            border: none;
+            border-radius: 10px;
+            color: #0f0;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: right;
+            width: calc(100% - 20px);
+        }
+
+        .button {
+            background: #333;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            color: #0f0;
+            margin: 5px;
+            padding: 15px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+            width: 50px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background: #0f0;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .title {
+            color: #0f0;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="title">PROSSIMAMENTE</div>
+        <input type="text" class="calculator-screen" disabled placeholder="0">
+        <div class="button-row">
+            <div class="button">+/-</div>
+            <div class="button">Prime</div>
+            <div class="button">AC</div>
+            <div class="button"><-</div>
+        </div>
+        <div class="button-row">
+            <button class="button">GCD</button>
+            <button class="button">LCM</button>
+            <button class="button">Sqrt</button>
+            <button class="button">^</button>
+        </div>
+        <div class="button-row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">/</button>
+        </div>
+        <div class="button-row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">*</button>
+        </div>
+        <div class="button-row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">-</button>
+        </div>
+        <div class="button-row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">+</button>
+        </div>
+    </div>
+</body>
+</html>
